@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    background: blue;
+    height: 100vh;
+    background-image: url(image-header.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+.c-img5{
+    height: 400px;
+}
+.c-img1{
+    height: 400px;
+    background-image: url(image-transform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c-img2{
+    height: 400px;
+    background-image: url(image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.c-img3{
+    height: 400px;
+    background-image: url(image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+.c-img4{
+    height: 400px;
+    background-image: url(image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+
+}
+.c-img7{ 
+    height: 280px;
+    background-image: url(image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-img8{
+    height: 280px;
+    background-image: url(image-gallery-orange.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-img9{
+    height: 280px;
+    background-image: url(image-gallery-cone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-img10{
+    height: 280px;
+    background-image: url(image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.c-img5 H5{ 
+    font-size: 35px;
+    font-family: 'Fraunces';
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 40px;
+   
+}
+.c-img5 P{
+    font-size: 15px;
+    padding-left: 40px;
+    color: grey;
+    font-family: Barlow;
+    line-height: 1.6;
+    font-weight: 600;
+    padding-right: 80px
+}
+.c-img3 H5{
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    padding-top: 250px;
+    color: gray;
+
+}
+.c-img4 H5{
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    padding-top: 250px;
+    color: gray;
+
+}
+.c-img3 P{
+    font-size: 15px;
+    color: grey;
+    font-family: Barlow;
+    line-height: 1.6;
+    font-weight: 600;
+
+}
+.c-img4 P{
+    font-size: 15px;
+    color: grey;
+    font-family: Barlow;
+    line-height: 1.6;
+    font-weight: 600;
+    
+
+}
+.footer-nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-nav-links li a{
+    text-decoration: none;
+    font-weight: bold;
+  
+}
+.footer-nav-links li{
+    padding-top: 30px;
+}
+.projects H3{
+    font-family: fraunces, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+.learn-btn{
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 40px;
+}
+.learn-btn-transform::after{
+    background-color: yellow;
+}
+.learn-btn-stand-out::after{
+    background-color: rgb(233, 53, 83);
+}
+.card-body p{
+    font-size: 12px;
+    font-family: 'Barlow' sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+.card-body h6{
+    font-weight: bold;
+    font-family: 'fraunces';
+}
+.footer{
+    background: rgb(82, 231, 231);
+}
+.card-body img{
+    width: 60px;
+}
